@@ -1,0 +1,21 @@
+{
+  "train_csv": "./new_train.csv",
+  "train_img_dir": "./data/bounding_box_train",
+  "epochs": 200,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-5,
+  "num_workers": 4,
+  "save_dir": "./checkpoints",
+  "log_file": "training_log.csv",
+  "resume": null,
+  "device": "cuda",
+  "gpu_ids": [0],
+  "num_classes": 1501,            
+  "num_age_classes": 4,           
+  "num_clothes_classes": 3,
+  "backbone_type":"resnet50",
+  "lambda_b": 0.5,
+  "lambda_m": 1.0,
+  "lambda_c": 0.5
+}
