@@ -39,6 +39,7 @@ ReIDMTMASH addresses this by:
 - **Shared Backbone** — Choose **ResNet50** or **EfficientNet** for flexible performance/efficiency trade-offs.
 - **Generalized Mean (GeM) Pooling** — Learns to prioritize salient visual cues adaptively.
 - **Attribute-Specific Heads**:
+  - **ReID Heads** — Digital footprint / social security number.
   - **Binary Heads** — Gender, hat, backpack, etc.
   - **Multi-Class Heads** — Age group, clothing category, etc.
   - **Color Heads** — Detect upper/lower clothing colors.
