@@ -1,4 +1,4 @@
-# 📌 ReIDMTMASH — Multi-Task Model with Attribute-Specific Heads for Person Re-Identification
+# 📌 Multi-task model with attribute-specific heads for person re-identification
 
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs10044--025--01421--0-blue)](https://doi.org/10.1007/s10044-025-01421-0)
 [![Paper](https://img.shields.io/badge/View%20Paper-Springer-green)](https://link.springer.com/article/10.1007/s10044-025-01421-0)
@@ -14,8 +14,8 @@
 ---
 
 ## 📝 Overview
-**ReIDMTMASH** is a cutting-edge **multi-task learning model** for **simultaneous Person Re-Identification (ReID)** and **Pedestrian Attribute Recognition**.  
-It enhances **digital surveillance**, **smart city systems**, and **security analytics** by combining robust identity classification with fine-grained attribute predictions such as:
+This **multi-task learning model** performs **simultaneous Person Re-Identification (ReID)** and **Pedestrian Attribute Recognition**.  
+It enhances **digital surveillance**, **smart city systems**, and **security analytics** by combining robust identity classification with fine-grained attribute predictions, including:
 
 - Gender
 - Age group
