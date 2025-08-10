@@ -65,7 +65,7 @@ ReIDMTMASH addresses this by:
 ### Prerequisites
 - Python **3.8+**
 - PyTorch **1.9+**
-- NVIDIA GPU (e.g., RTX 3060) recommended
+- NVIDIA GPU (e.g., RTX 3060)+ recommended
 - Dependencies: `PyTorch`, `torchvision`, `numpy`, `scipy`, `scikit-learn`
 
 ## Citation
