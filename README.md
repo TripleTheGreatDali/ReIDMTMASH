@@ -31,7 +31,7 @@ Most ReID systems focus only on identity matching, ignoring semantic attributes 
 ReIDMTMASH addresses this by:
 - Combining **ReID** with **detailed attribute recognition**
 - Improving **accuracy** and **reliability** in challenging environments
-- Offering interdisciplinary value across **computer vision, psychology, and public safety**
+- Offering interdisciplinary value across **AI, computer vision, Digital surveillance, and public safety**
 
 ---
 
@@ -41,7 +41,7 @@ ReIDMTMASH addresses this by:
 - **Attribute-Specific Heads**:
   - **Binary Heads** — Gender, hat, backpack, etc.
   - **Multi-Class Heads** — Age group, clothing category, etc.
-  - **Color Heads** — Detect upper/lower garment colors.
+  - **Color Heads** — Detect upper/lower clothing colors.
 - **Balanced Multi-Task Optimization** — Dynamic loss weighting prevents one task from dominating.
 - **Validated on Benchmark Datasets** — **Market1501** & **DukeMTMC-reID**.
 
@@ -66,7 +66,7 @@ ReIDMTMASH addresses this by:
 - Python **3.8+**
 - PyTorch **1.9+**
 - NVIDIA GPU (e.g., RTX 3060) recommended
-- Dependencies: `torchvision`, `numpy`, `scipy`, `scikit-learn`
+- Dependencies: `PyTorch`, `torchvision`, `numpy`, `scipy`, `scikit-learn`
 
 ## Citation
 
